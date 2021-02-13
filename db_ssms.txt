@@ -1,0 +1,24 @@
+ create table `studentscoremanagementsystem`.`student` 
+(    `ROLL NO` int (2)   NOT NULL ,
+  `NAME` char (25)   NULL , 
+ `COURSE NAME` char (25)   NULL , 
+ `FATHER NAME` char (25)   NULL ,
+  `BRANCH NAME` char (25)   NULL , 
+ `GENDER` char (25)   NULL  , 
+PRIMARY KEY ( `ROLL NO` )  )
+ 
+create table `studentscoremanagementsystem`.`BTECH` 
+(    `Roll Number` int (5)   NOT NULL , 
+ `ENGG Ph.` int (5)   NULL ,  
+`ENGG CH.` int (5)   NULL , 
+ `ENGG MH.` int (5)   NULL , 
+ `ENGG ELE.` int (5)   NULL ,  
+`ENGG ELC.` int (5)   NULL ,  
+`CHE LAB.` int (5)   NULL    )
+
+insert into student values(001,'prachi','thane','BE','Ram','female');
+
+insert into student values(0011,'depali','thane','BE','keshav','female');
+insert into student values(0012,'meeepali','thane','BE','vijay','female'),
+(0013,'Repali','thane','BE','devu','female'),
+(0014,'kepali','thane','BE','shri','female');
